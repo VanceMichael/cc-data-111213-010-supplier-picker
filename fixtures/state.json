@@ -1,0 +1,33 @@
+{
+  "generation": 1,
+  "suppliers": [
+    {
+      "name": "远航设备",
+      "taxId": "SYN-001",
+      "id": "A"
+    },
+    {
+      "name": "远航设备",
+      "taxId": "SYN-002",
+      "id": "B"
+    }
+  ],
+  "branches": {
+    "A": [
+      {
+        "id": "A1",
+        "name": "东区"
+      }
+    ],
+    "B": [
+      {
+        "id": "B1",
+        "name": "东区"
+      }
+    ]
+  },
+  "searchDelay": {
+    "远": 150,
+    "远航": 10
+  }
+}

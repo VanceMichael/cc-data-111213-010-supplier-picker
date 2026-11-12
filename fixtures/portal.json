@@ -1,0 +1,9 @@
+{
+  "title": "异步联想控件的供应商录入自动化",
+  "local": true,
+  "roles": [
+    "人工使用者"
+  ],
+  "entry": "/",
+  "scenario": "supplier-picker"
+}
