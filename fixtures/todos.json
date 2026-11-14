@@ -1,0 +1,16 @@
+{
+  "todos": [
+    {
+      "id": "T-001",
+      "subject": { "name": "远航设备", "taxId": "SYN-002" },
+      "branch": { "id": "B1", "name": "东区" },
+      "note": "月度采购付款主体，重名名录中按税号区分"
+    },
+    {
+      "id": "T-002",
+      "subject": { "name": "远航设备", "taxId": "SYN-009" },
+      "branch": { "id": "B1", "name": "东区" },
+      "note": "税号未入名录，预期转人工"
+    }
+  ]
+}

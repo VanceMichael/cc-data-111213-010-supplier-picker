@@ -48,7 +48,7 @@ customElements.define('supplier-search',class extends HTMLElement {
   connectedCallback() { this.attachShadow({mode:'open'}).innerHTML = '<search-input></search-input>'; }
 });
 let selected;
-query('supplier-search').addEventListener('chosen',async event => {
+document.addEventListener('chosen',async event => {
   selected = event.detail;
   query('#branch').replaceChildren();
   const data = await api(`/api/branches?subject=${selected.id}`);
